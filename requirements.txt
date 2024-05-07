@@ -1,7 +1,8 @@
-beautifulsoup4
+langchain
 langchain-community
 langchainhub
 langchain_openai
 langchain_chroma
+bs4
 streamlit
 flask
