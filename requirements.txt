@@ -4,5 +4,6 @@ langchainhub
 langchain_openai
 langchain_chroma
 bs4
+python-dotenv
 streamlit
 flask
