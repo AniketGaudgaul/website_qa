@@ -1,0 +1,7 @@
+beautifulsoup4
+langchain-community
+langchainhub
+langchain_openai
+langchain_chroma
+streamlit
+flask
