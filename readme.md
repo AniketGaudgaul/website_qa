@@ -65,18 +65,18 @@ There are two ways to use this tool: through API calls or using a built-in UI.
 
       $response
 
-      OR (Breakdown of steps)
+      If the above line does not work, restart the app and execute the following lines in powershell individually. (Breakdown of steps)
 
-      $body = @{
+      1. $body = @{
           url = "https://example.com"
           question = "What is Gen AI?"
-      }
+        }
 
-      $jsonBody = $body | ConvertTo-Json
+      2. $jsonBody = $body | ConvertTo-Json
 
-      $response = Invoke-RestMethod -Uri "http://127.0.0.1:5000/answer" -Method Post -ContentType "application/json" -Body $jsonBody
+      3. $response = Invoke-RestMethod -Uri "http://127.0.0.1:5000/answer" -Method Post -ContentType "application/json" -Body $jsonBody
 
-      $response
+      3. $response
       ```
 
     - **macOS and Linux using cURL**:
